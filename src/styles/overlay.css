@@ -1,0 +1,34 @@
+/* 커서(해/별) · 꼬리 · 마스코트 말풍선(헥헥, zzz) */
+/* cursor */
+/* cursor: sun by day, star by night — position is instant, only its shape moves */
+.cursor { position: fixed; left: 0; top: 0; width: 0; height: 0; z-index: 10; pointer-events: none; }
+.cursor .c { position: absolute; left: 0; top: 0; translate: -50% -50%;
+  transition: opacity 350ms, scale 350ms cubic-bezier(.3,1.6,.5,1), rotate 450ms cubic-bezier(.3,1.2,.5,1); }
+.c-sun { width: 30px; height: 30px; }
+.c-sun .core { fill: #ff9f1a; }
+.c-sun .rays line { stroke: #ff9f1a; stroke-width: 1.8; stroke-linecap: round; }
+.c-star { width: 26px; height: 26px; filter: drop-shadow(0 0 4px rgba(200,214,255,.9)) drop-shadow(0 0 10px rgba(143,166,255,.55)); }
+.c-star path { fill: #eef2ff; }
+.c-star { opacity: 0; scale: .2; rotate: -90deg; }
+[data-theme="night"] .c-sun { opacity: 0; scale: .2; rotate: 90deg; }
+[data-theme="night"] .c-star { opacity: 1; scale: 1; rotate: 0deg; }
+.cursor.link .c-sun { scale: 1.55; }
+[data-theme="night"] .cursor.link .c-star { scale: 1.5; }
+.cursor.press .c-sun, [data-theme="night"] .cursor.press .c-star { scale: .7; }
+#trail { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; z-index: 9; pointer-events: none; }
+@media (hover: none), (pointer: coarse) { .cursor, #trail { display: none; } }
+body.grabbing { user-select: none; }
+.pant {
+  position: fixed; left: 0; top: 0; z-index: 4; pointer-events: none; opacity: 0;
+  font-family: var(--body); font-size: 18px; font-weight: 800; color: #ff4a3d; letter-spacing: -0.02em;
+  transition: opacity 200ms;
+}
+.zzz {
+  position: fixed; left: 0; top: 0; z-index: 4; pointer-events: none; opacity: 0;
+  font-family: var(--display); font-weight: 800; color: var(--ink-2); letter-spacing: .04em; white-space: nowrap;
+}
+.zzz span { display: inline-block; animation: zfloat 2.4s ease-in-out infinite; }
+.zzz span:nth-child(1) { font-size: 14px; }
+.zzz span:nth-child(2) { font-size: 19px; animation-delay: .4s; }
+.zzz span:nth-child(3) { font-size: 25px; animation-delay: .8s; }
+@keyframes zfloat { 0%,100% { transform: translateY(0); opacity: .35; } 50% { transform: translateY(-8px); opacity: 1; } }

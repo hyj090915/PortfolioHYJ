@@ -1,0 +1,16 @@
+/* 낮/밤 색 토큰과 폰트 */
+  :root, [data-theme="day"] {
+  --bg: #f3f4f6; --ink: #15161a; --ink-2: #3c3f46; --muted: #7b808a; --line: #d9dce1;
+  --hover: rgba(21,22,26,.06); --peek-k: #8fa6ff;
+}
+[data-theme="night"] {
+  --bg: #15161a; --ink: #eef0f3; --ink-2: #b3b7c0; --muted: #7c818b; --line: #2b2d33;
+  --hover: rgba(238,240,243,.08); --peek-k: #2f5bff;
+}
+html.theming, html.theming * { transition: color .7s, background-color .7s, border-color .7s !important; }
+:root {
+  --accent: #2f5bff;
+  --accent-deep: #1b3fd6;
+  --display: 'Bricolage Grotesque', 'Pretendard Variable', sans-serif;
+  --body: 'Pretendard Variable', -apple-system, sans-serif;
+}

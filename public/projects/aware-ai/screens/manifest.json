@@ -1,0 +1,181 @@
+{
+  "sourceDirectory": "AWARE-AI",
+  "processing": {
+    "format": "WebP",
+    "quality": 90,
+    "thumbnailMaxWidth": 320,
+    "metadata": "Removed by copying pixels to a fresh RGB image",
+    "redaction": "Opaque rectangles applied before full-size and thumbnail encoding; original files unchanged"
+  },
+  "images": [
+    {
+      "source": "AWARE-AI/1.png",
+      "file": "01-input.webp",
+      "thumbnail": "01-input-thumb.webp",
+      "width": 3024,
+      "height": 1648,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/2.png",
+      "file": "02-analysis-ready.webp",
+      "thumbnail": "02-analysis-ready-thumb.webp",
+      "width": 3024,
+      "height": 1640,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": [
+        {
+          "kind": "email-input",
+          "rect": {
+            "x": 958,
+            "y": 1078,
+            "width": 403,
+            "height": 57
+          },
+          "fill": [
+            233,
+            240,
+            253
+          ]
+        }
+      ]
+    },
+    {
+      "source": "AWARE-AI/3.png",
+      "file": "03-analysis-loading.webp",
+      "thumbnail": "03-analysis-loading-thumb.webp",
+      "width": 3024,
+      "height": 1648,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": [
+        {
+          "kind": "blurred-email-input",
+          "rect": {
+            "x": 940,
+            "y": 1075,
+            "width": 441,
+            "height": 86
+          },
+          "fill": [
+            249,
+            251,
+            254
+          ]
+        }
+      ]
+    },
+    {
+      "source": "AWARE-AI/4.png",
+      "file": "04-analysis-result.webp",
+      "thumbnail": "04-analysis-result-thumb.webp",
+      "width": 3020,
+      "height": 1640,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/5.png",
+      "file": "05-style-products.webp",
+      "thumbnail": "05-style-products-thumb.webp",
+      "width": 3024,
+      "height": 1646,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/6.png",
+      "file": "06-style-selection.webp",
+      "thumbnail": "06-style-selection-thumb.webp",
+      "width": 3022,
+      "height": 1650,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 175,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/7.png",
+      "file": "07-image-loading.webp",
+      "thumbnail": "07-image-loading-thumb.webp",
+      "width": 3024,
+      "height": 1654,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 175,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/8.png",
+      "file": "08-generated-style.webp",
+      "thumbnail": "08-generated-style-thumb.webp",
+      "width": 3024,
+      "height": 1648,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 174,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/9.png",
+      "file": "09-email-report.webp",
+      "thumbnail": "09-email-report-thumb.webp",
+      "width": 2354,
+      "height": 1344,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 183,
+      "masks": [
+        {
+          "kind": "sender-email",
+          "rect": {
+            "x": 204,
+            "y": 104,
+            "width": 252,
+            "height": 43
+          },
+          "fill": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "kind": "account-avatar",
+          "rect": {
+            "x": 0,
+            "y": 98,
+            "width": 81,
+            "height": 83
+          },
+          "fill": [
+            255,
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source": "AWARE-AI/10.png",
+      "file": "10-email-products.webp",
+      "thumbnail": "10-email-products-thumb.webp",
+      "width": 2374,
+      "height": 1358,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 183,
+      "masks": []
+    },
+    {
+      "source": "AWARE-AI/11.png",
+      "file": "11-email-generated-image.webp",
+      "thumbnail": "11-email-generated-image-thumb.webp",
+      "width": 2352,
+      "height": 1336,
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 182,
+      "masks": []
+    }
+  ]
+}

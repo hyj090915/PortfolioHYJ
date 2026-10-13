@@ -1,0 +1,15 @@
+/* 리셋, 바디, 3D 캔버스 레이어 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--bg); }
+body {
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+@media (hover: hover) and (pointer: fine) { body, a, button { cursor: none; } }
+
+#world { position: fixed; inset: 0; z-index: 0; display: block; }
+main { position: relative; z-index: 1; pointer-events: none; }
+main a, main button, [data-hit] { pointer-events: auto; }

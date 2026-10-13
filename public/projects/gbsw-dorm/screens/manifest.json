@@ -1,0 +1,318 @@
+{
+  "source": "User-provided project captures, completed 2026-10-13",
+  "privacy": "Student names, student IDs, room information, profile initials, phone numbers, and initial password values are covered with opaque rectangles. Coordinates are original-pixel xyxy. Originals are unchanged, verified by SHA-256 before and after processing. EXIF, ICC, and XMP metadata are omitted.",
+  "screens": [
+    {
+      "source": "1.png",
+      "file": "01-login.webp",
+      "thumbnail": "01-login-thumb.webp",
+      "width": 3024,
+      "height": 1648,
+      "redactions": [
+        [
+          1180,
+          1234,
+          1840,
+          1288
+        ],
+        [
+          1400,
+          1440,
+          1630,
+          1500
+        ]
+      ]
+    },
+    {
+      "source": "2.png",
+      "file": "02-notices.webp",
+      "thumbnail": "02-notices-thumb.webp",
+      "width": 3024,
+      "height": 1642,
+      "redactions": [
+        [
+          2505,
+          25,
+          2700,
+          110
+        ],
+        [
+          1400,
+          892,
+          1630,
+          946
+        ]
+      ]
+    },
+    {
+      "source": "3.png",
+      "file": "03-community-web-archive.webp",
+      "thumbnail": "03-community-web-archive-thumb.webp",
+      "width": 3024,
+      "height": 1646,
+      "redactions": [
+        [
+          2520,
+          28,
+          2696,
+          108
+        ],
+        [
+          425,
+          687,
+          574,
+          730
+        ],
+        [
+          425,
+          1004,
+          574,
+          1047
+        ],
+        [
+          425,
+          1318,
+          574,
+          1363
+        ],
+        [
+          425,
+          1632,
+          574,
+          1646
+        ],
+        [
+          387,
+          634,
+          544,
+          682
+        ]
+      ]
+    },
+    {
+      "source": "4.png",
+      "file": "04-penalty-request.webp",
+      "thumbnail": "04-penalty-request-thumb.webp",
+      "width": 3024,
+      "height": 1648,
+      "redactions": [
+        [
+          2422,
+          28,
+          2575,
+          98
+        ],
+        [
+          987,
+          365,
+          1295,
+          442
+        ]
+      ]
+    },
+    {
+      "source": "5.png",
+      "file": "05-calendar.webp",
+      "thumbnail": "05-calendar-thumb.webp",
+      "width": 3024,
+      "height": 1650,
+      "redactions": [
+        [
+          2520,
+          28,
+          2696,
+          110
+        ]
+      ]
+    },
+    {
+      "source": "6.png",
+      "file": "06-complaints-archive.webp",
+      "thumbnail": "06-complaints-archive-thumb.webp",
+      "width": 3024,
+      "height": 1644,
+      "redactions": [
+        [
+          2522,
+          24,
+          2700,
+          108
+        ],
+        [
+          1394,
+          1470,
+          1602,
+          1514
+        ]
+      ]
+    },
+    {
+      "source": "7.png",
+      "file": "07-my-points.webp",
+      "thumbnail": "07-my-points-thumb.webp",
+      "width": 3014,
+      "height": 1642,
+      "redactions": [
+        [
+          2522,
+          24,
+          2700,
+          108
+        ],
+        [
+          1004,
+          909,
+          1106,
+          952
+        ],
+        [
+          1404,
+          1123,
+          1616,
+          1169
+        ]
+      ]
+    },
+    {
+      "source": "8.png",
+      "file": "08-settings-archive.webp",
+      "thumbnail": "08-settings-archive-thumb.webp",
+      "width": 3022,
+      "height": 1640,
+      "redactions": [
+        [
+          2522,
+          24,
+          2700,
+          108
+        ],
+        [
+          1044,
+          128,
+          1214,
+          173
+        ],
+        [
+          968,
+          351,
+          1066,
+          397
+        ],
+        [
+          1394,
+          1408,
+          1602,
+          1454
+        ]
+      ]
+    },
+    {
+      "source": "9.jpeg",
+      "file": "09-community-archive.webp",
+      "thumbnail": "09-community-archive-thumb.webp",
+      "width": 1080,
+      "height": 2316,
+      "redactions": [
+        [
+          140,
+          1090,
+          335,
+          1156
+        ],
+        [
+          140,
+          1500,
+          335,
+          1565
+        ],
+        [
+          140,
+          1907,
+          335,
+          1974
+        ],
+        [
+          400,
+          2149,
+          680,
+          2202
+        ],
+        [
+          758,
+          144,
+          817,
+          206
+        ]
+      ]
+    },
+    {
+      "source": "10.jpeg",
+      "file": "10-notices-mobile.webp",
+      "thumbnail": "10-notices-mobile-thumb.webp",
+      "width": 1080,
+      "height": 2316,
+      "redactions": [
+        [
+          757,
+          142,
+          817,
+          202
+        ],
+        [
+          410,
+          1540,
+          670,
+          1594
+        ]
+      ]
+    },
+    {
+      "source": "11.jpeg",
+      "file": "11-my-points-mobile.webp",
+      "thumbnail": "11-my-points-mobile-thumb.webp",
+      "width": 1080,
+      "height": 2316,
+      "redactions": [
+        [
+          757,
+          142,
+          817,
+          202
+        ],
+        [
+          452,
+          1231,
+          580,
+          1286
+        ],
+        [
+          410,
+          1514,
+          670,
+          1571
+        ]
+      ]
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-07-09-12-29-07 004.jpeg",
+      "file": "12-login-mobile.webp",
+      "thumbnail": "12-login-mobile-thumb.webp",
+      "width": 1080,
+      "height": 2316,
+      "redactions": [
+        [
+          410,
+          1953,
+          670,
+          2009
+        ],
+        [
+          323,
+          1645,
+          424,
+          1700
+        ]
+      ]
+    }
+  ]
+}

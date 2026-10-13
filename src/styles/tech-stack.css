@@ -1,0 +1,18 @@
+/* Real technology marks keep their original artwork on a light icon tile. */
+.tech-stack { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 0; list-style: none; }
+.tech-stack__item { display: inline-flex; align-items: center; gap: 7px; min-width: 0; max-width: 100%; padding: 5px 10px 5px 5px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink-2); font-size: 12px; font-weight: 600; line-height: 1.4; }
+.tech-stack__icon { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 26px; width: 26px; height: 26px; border-radius: 5px; background: #fff; }
+.tech-stack__icon img { display: block; width: 18px; height: 18px; object-fit: contain; }
+.tech-stack__label { min-width: 0; overflow-wrap: anywhere; }
+.row .tech-stack { gap: 6px; }
+.row .tech-stack__item { padding: 3px 7px 3px 3px; gap: 5px; font-size: 11px; font-weight: 600; background: color-mix(in srgb, var(--card) 60%, transparent); }
+.row .tech-stack__icon { width: 22px; height: 22px; flex-basis: 22px; }
+.row .tech-stack__icon img { width: 16px; height: 16px; }
+
+@media (max-width: 800px) {
+  .tech-stack { gap: 6px; }
+  .tech-stack__item { padding: 4px 8px 4px 4px; gap: 6px; font-size: 11px; }
+  .tech-stack__icon { width: 24px; height: 24px; flex-basis: 24px; }
+  .tech-stack__icon img { width: 17px; height: 17px; }
+  .row .tech-stack { gap: 6px; line-height: 1.4; }
+}

@@ -1,0 +1,18 @@
+/* 낮/밤 전환 버튼 (해 ↔ 달 모핑) */
+.dn {
+  width: 40px; height: 40px; margin-left: 8px; display: grid; place-items: center;
+  border: 0; border-radius: 8px; background: transparent; color: var(--ink);
+  transition: background 150ms;
+}
+.dn:hover { background: var(--hover); }
+.dn svg { width: 24px; height: 24px; overflow: visible; }
+.dn .core { transition: r 500ms cubic-bezier(.3,1.5,.5,1); }
+.dn .bite { transition: cx 500ms cubic-bezier(.3,1,.4,1), cy 500ms cubic-bezier(.3,1,.4,1); }
+.dn .rays { transform-origin: 12px 12px; transition: transform 500ms cubic-bezier(.3,1.4,.5,1), opacity 300ms; }
+.dn .rays line { stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.dn:hover .rays { transform: rotate(45deg); }
+[data-theme="night"] .dn .core { r: 9px; }
+[data-theme="night"] .dn .bite { cx: 17px; cy: 7px; }
+[data-theme="night"] .dn .rays { transform: rotate(-90deg) scale(.3); opacity: 0; }
+[data-theme="night"] .dn:hover svg { transform: rotate(-12deg); }
+.dn svg { transition: transform 300ms; }

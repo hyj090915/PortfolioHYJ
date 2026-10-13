@@ -1,0 +1,16 @@
+/* 상단 내비게이션 */
+/* nav */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 5;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 24px 40px;
+}
+.logo { font-family: var(--display); font-weight: 800; font-size: 22px; letter-spacing: -0.03em; color: var(--ink); text-decoration: none; }
+.logo span { color: var(--accent); }
+.nav ul { display: flex; gap: 8px; list-style: none; }
+.nav a.link {
+  display: inline-block; padding: 8px 14px; border-radius: 8px;
+  font-size: 14px; font-weight: 600; color: var(--ink-2); text-decoration: none;
+  transition: background 150ms, color 150ms;
+}
+.nav a.link:hover { background: var(--hover); color: var(--ink); }

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>한예준 — Full-Stack Developer</title>
+    <meta name="description" content="백엔드 중심 풀스택 개발자 한예준의 포트폴리오" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <script>
+      // 첫 페인트 전에 낮/밤을 정해서 깜빡임 방지 (src/lib/theme.ts 와 같은 규칙)
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem('yj-daynight'); } catch (e) {}
+        if (t !== 'day' && t !== 'night') { var h = new Date().getHours(); t = (h >= 19 || h < 6) ? 'night' : 'day'; }
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

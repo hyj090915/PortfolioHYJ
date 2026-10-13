@@ -1,0 +1,107 @@
+{
+  "source": "User-provided NewStory app captures, 2026-10-12",
+  "privacy": "The MY profile nickname, email, and avatar initial are covered with opaque rectangles. Original files are unchanged. EXIF, ICC, and XMP metadata are omitted.",
+  "screens": [
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 007.jpeg",
+      "file": "01-article-original.webp",
+      "thumbnail": "01-article-original-thumb.webp",
+      "width": 1080,
+      "height": 2112,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 006.jpeg",
+      "file": "02-reading-level.webp",
+      "thumbnail": "02-reading-level-thumb.webp",
+      "width": 1080,
+      "height": 2107,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 005.jpeg",
+      "file": "03-fairytale.webp",
+      "thumbnail": "03-fairytale-thumb.webp",
+      "width": 1080,
+      "height": 2102,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 002.jpeg",
+      "file": "04-novel.webp",
+      "thumbnail": "04-novel-thumb.webp",
+      "width": 1080,
+      "height": 2097,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 001.jpeg",
+      "file": "05-card-summary.webp",
+      "thumbnail": "05-card-summary-thumb.webp",
+      "width": 1080,
+      "height": 2097,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 004.jpeg",
+      "file": "06-inline-glossary.webp",
+      "thumbnail": "06-inline-glossary-thumb.webp",
+      "width": 1080,
+      "height": 2115,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 003.jpeg",
+      "file": "07-glossary-list.webp",
+      "thumbnail": "07-glossary-list-thumb.webp",
+      "width": 1080,
+      "height": 2096,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 009.jpeg",
+      "file": "08-direct-convert.webp",
+      "thumbnail": "08-direct-convert-thumb.webp",
+      "width": 1080,
+      "height": 2099,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 011.jpeg",
+      "file": "09-login.webp",
+      "thumbnail": "09-login-thumb.webp",
+      "width": 1080,
+      "height": 2115,
+      "redactions_xyxy": []
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 008.jpeg",
+      "file": "10-my-settings.webp",
+      "thumbnail": "10-my-settings-thumb.webp",
+      "width": 1080,
+      "height": 2105,
+      "redactions_xyxy": [
+        [
+          252,
+          257,
+          658,
+          374
+        ],
+        [
+          128,
+          273,
+          208,
+          357
+        ]
+      ]
+    },
+    {
+      "source": "KakaoTalk_Photo_2026-09-25-18-19-46 010.jpeg",
+      "file": "11-home-before-fix.webp",
+      "thumbnail": "11-home-before-fix-thumb.webp",
+      "width": 1080,
+      "height": 2108,
+      "redactions_xyxy": []
+    }
+  ]
+}

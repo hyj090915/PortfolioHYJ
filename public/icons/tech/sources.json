@@ -1,0 +1,114 @@
+{
+  "icons": [
+    {
+      "file": "react.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "typescript.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "springboot.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "mysql.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "flutter.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/flutter/flutter-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "firebase.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/firebase/firebase-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "amazon-ec2.svg",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/amazonec2.svg",
+      "source": "Simple Icons",
+      "license": "CC0-1.0",
+      "brandColor": "#FF9900",
+      "colorSource": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/_data/simple-icons.json",
+      "modification": "Added the upstream brand color as the SVG fill; path geometry unchanged."
+    },
+    {
+      "file": "nginx.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nginx/nginx-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "java.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "postgresql.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "claude.svg",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/claude.svg",
+      "source": "Simple Icons",
+      "license": "CC0-1.0",
+      "brandColor": "#D97757",
+      "colorSource": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/_data/simple-icons.json",
+      "modification": "Added the upstream brand color as the SVG fill; path geometry unchanged."
+    },
+    {
+      "file": "python.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "fastapi.svg",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastapi/fastapi-original.svg",
+      "source": "Devicon",
+      "license": "MIT"
+    },
+    {
+      "file": "openai.svg",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/openai.svg",
+      "source": "Simple Icons",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "naver.svg",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/naver.svg",
+      "source": "Simple Icons",
+      "license": "CC0-1.0",
+      "brandColor": "#03C75A",
+      "colorSource": "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/_data/simple-icons.json",
+      "modification": "Added the upstream brand color as the SVG fill; path geometry unchanged."
+    }
+  ],
+  "licenses": [
+    {
+      "file": "LICENSE-devicon.txt",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/LICENSE"
+    },
+    {
+      "file": "LICENSE-simple-icons.md",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/LICENSE.md"
+    }
+  ],
+  "notice": "Brand marks belong to their respective owners. Their presence does not imply endorsement. Path geometry and upstream license files are preserved locally. Claude, Naver, and Amazon EC2 use the brand colors listed in Simple Icons 13.21.0 metadata."
+}
